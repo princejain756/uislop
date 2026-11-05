@@ -1,0 +1,46 @@
+{
+  "name": "uislop",
+  "version": "0.1.0",
+  "description": "Zero-dependency static linter for AI-generated ('vibecoded') frontend UI tells in React, Next.js, Vue, Svelte, Tailwind, and HTML.",
+  "type": "module",
+  "bin": {
+    "uislop": "bin/uislop.mjs"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "examples/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "demo": "node ./bin/uislop.mjs --demo"
+  },
+  "keywords": [
+    "ui",
+    "linter",
+    "tailwind",
+    "react",
+    "nextjs",
+    "vibecoding",
+    "ai-slop",
+    "frontend",
+    "design-system",
+    "claude-code",
+    "cursor"
+  ],
+  "author": "Prince Jain <mail@prince.sh> (https://www.prince.sh)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princejain756/uislop.git"
+  },
+  "homepage": "https://github.com/princejain756/uislop",
+  "bugs": {
+    "url": "https://github.com/princejain756/uislop/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
